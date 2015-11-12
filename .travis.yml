@@ -1,0 +1,10 @@
+language: node_js
+node_js:
+  - "0.10"
+branches:
+  only:
+    - angular
+before_script:
+  - npm install
+  - gulp build
+  - gulp test
