@@ -1,6 +1,6 @@
 {
     "compilerOptions": {
-        "module": "commonjs",
+        "module": "amd",
         "noImplicitAny": true,
         "removeComments": true,
         "preserveConstEnums": true,
@@ -22,7 +22,7 @@
         "placeOpenBraceOnNewLineForControlBlocks": false
     },
     "files": [
-        "./app/tsapp.ts"
+        "./app/bootstrap.ts"
     ],
     "exclude": [
         "./node_modules"
