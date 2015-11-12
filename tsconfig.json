@@ -1,0 +1,16 @@
+{
+    "compilerOptions": {
+        "module": "commonjs",
+        "noImplicitAny": true,
+        "removeComments": true,
+        "preserveConstEnums": true,
+        "out": "./build/js/bundle.js",
+        "sourceMap": true
+    },
+    "files": [
+        "./app/tsapp.ts"
+    ],
+    "exclude": [
+        "./node_modules"
+    ]
+}
