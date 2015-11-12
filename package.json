@@ -1,0 +1,38 @@
+{
+  "name": "Pernalonga",
+  "version": "0.0.1",
+  "description": "Pernalonga webapp.",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/skitles/pl-frontend.git"
+  },
+  "contributors": [
+    {
+      "name": "Rui Simões",
+      "email": "rfsimoes@outlook.pt"
+    }
+  ],
+  "devDependencies": {
+    "angular": "^1.4.7",
+    "angular-route": "^1.4.7",
+    "browser-sync": "^2.10.0",
+    "browserify": "^12.0.1",
+    "gulp": "^3.9.0",
+    "gulp-autoprefixer": "^3.1.0",
+    "gulp-browserify": "^0.5.1",
+    "gulp-clean": "^0.3.1",
+    "gulp-concat": "^2.6.0",
+    "gulp-embedlr": "^0.5.2",
+    "gulp-imagemin": "^2.4.0",
+    "gulp-jasmine": "^2.2.1",
+    "gulp-jshint": "^1.12.0",
+    "gulp-livereload": "^3.8.1",
+    "gulp-minify-html": "^1.0.4",
+    "gulp-rimraf": "^0.2.0",
+    "gulp-sass": "^2.1.0",
+    "gulp-util": "^3.0.7",
+    "karma": "^0.13.15",
+    "tiny-lr": "^0.2.1"
+  },
+  "license": "MIT"
+}
