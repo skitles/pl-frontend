@@ -30,7 +30,6 @@
     "gulp-rimraf": "^0.2.0",
     "gulp-sass": "^2.1.0",
     "gulp-util": "^3.0.7",
-    "karma": "^0.13.15",
     "tiny-lr": "^0.2.1"
   },
   "license": "MIT"
