@@ -1,30 +1,29 @@
 {
     "compilerOptions": {
-        "module": "amd",
+        "module": "commonjs",
         "noImplicitAny": true,
         "removeComments": true,
         "preserveConstEnums": true,
-        "out": "./build/js/bundle.js",
         "sourceMap": true
     },
     "formatCodeOptions": {
-        "indentSize": 4,
-        "tabSize": 4,
+        "indentSize": 2,
+        "tabSize": 2,
         "newLineCharacter": "\r\n",
-        "convertTabsToSpaces": true,
-        "insertSpaceAfterCommaDelimiter": true,
-        "insertSpaceAfterSemicolonInForStatements": true,
-        "insertSpaceBeforeAndAfterBinaryOperators": true,
-        "insertSpaceAfterKeywordsInControlFlowStatements": true,
+        "convertTabsToSpaces": false,
+        "insertSpaceAfterCommaDelimiter": false,
+        "insertSpaceAfterSemicolonInForStatements": false,
+        "insertSpaceBeforeAndAfterBinaryOperators": false,
+        "insertSpaceAfterKeywordsInControlFlowStatements": false,
         "insertSpaceAfterFunctionKeywordForAnonymousFunctions": false,
         "insertSpaceAfterOpeningAndBeforeClosingNonemptyParenthesis": false,
         "placeOpenBraceOnNewLineForFunctions": false,
         "placeOpenBraceOnNewLineForControlBlocks": false
     },
-    "files": [
-        "./app/bootstrap.ts"
-    ],
-    "exclude": [
-        "./node_modules"
+    "except": [
+        "app/template",
+        "app/vendor",
+        "node_modules",
+        ".vscode"
     ]
 }
